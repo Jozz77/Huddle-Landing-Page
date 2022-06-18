@@ -333,13 +333,14 @@ footer{
          display: flex;
          flex-direction: column;
          padding: 1rem 4rem;
+         width: 100%;
      
      }
      
      .down-header .build{
          padding-top: 0rem;
          padding-right: 0rem;
-         margin-right: 0rem;
+         margin: 0 auto;
          font-family: 'Open Sans', sans-serif;
          font-weight: 600;
          width: 100%;
@@ -376,12 +377,13 @@ footer{
      }
      .down-header .build-image{
         width: 100%;
-        margin-left: -2rem;
+        margin-left: 0rem;
         margin-top: 3rem;
      }
      .down-header .build-image img{
-         width: 20rem;
+         width: 100%;
          height: auto;
+         margin: auto 0;
      }
      /*main styling*/
      .main-container h1{
@@ -428,9 +430,9 @@ footer{
         padding: 0rem 3rem;
      }
      .first-container img{
-         width: 17rem;
+        width: 80%;
          height: auto;
-         margin-left: 2rem;
+         margin: auto 2rem;
      }
      .second-container .container-together{
         width: 100%;
@@ -464,10 +466,9 @@ footer{
         padding: 0rem 3rem;
     }
     .second-container img{
-        width: 18rem;
+        width: 80%;
         height: auto;
-        margin-left: 2rem;
-        margin-right: 0rem;
+        margin: auto 2rem;
         
     }
     .third-container .container-together{
@@ -493,10 +494,9 @@ footer{
     }
     
     .third-container img{
-        width: 17rem;
+        width: 80%;
         height: auto;
-        margin-left: 2rem;
-        margin-right: 0rem;
+        margin: auto 2rem;
     }
     @keyframes ready{
         0%   {left:0px; top:0px;}
@@ -522,7 +522,7 @@ footer{
     /*footer styling*/
     .ready{
        width: 90%;
-       margin-left: 1%;
+       margin: 0 auto;
        margin-right: 0%;
        position: absolute;
        left: auto;
@@ -560,7 +560,7 @@ footer{
        font-size: x-small;
    }
    .ready button:hover{
-       width: 1rem;
+       width: 13rem;
    }
    #huddle-white {
     height: auto;
@@ -624,7 +624,7 @@ footer{
        padding-top: 0rem;
    }
    .fourth-footer{
-       width: 100%;
+       width: 50%;
        padding-top: 2rem;
        margin-bottom: 1rem;
        margin-left: 7rem;
@@ -657,7 +657,7 @@ footer{
        justify-content: center;
        padding-bottom: 3rem;
        text-align: center;
-       font-size: small;
+       font-size: small ;
        margin-top: 0rem;
      }
    }
